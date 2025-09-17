@@ -1,0 +1,18 @@
+/bot
+  index.js              # Entry point
+  package.json          # NPM config
+  .env.example          # Example env file
+  README.md             # Project docs
+  /lib
+    commands.js         # Command handling
+    state.js            # Bot state (online/offline/auto)
+    replies.js          # Reply manager
+    logger.js           # Session logger + nightly summary
+    utils.js            # Helper functions
+  /data
+    config.json         # Configurable settings
+    replies.json        # Reply pools
+  /sessions
+    creds.json          # Baileys session creds (auto generated)
+    metadata.json       # Owner info (auto generated)
+    nightlog.json       # Buffer for nightly log (auto generated)
