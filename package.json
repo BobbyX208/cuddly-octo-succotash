@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-voicemail-assistant",
+  "version": "1.0.0",
+  "description": "A WhatsApp personal assistant bot using Baileys. Acts like voicemail when offline.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "assistant",
+    "baileys",
+    "voicemail"
+  ],
+  "author": "BobbyX208",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
