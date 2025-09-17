@@ -1,0 +1,17 @@
+{
+  "autoMode": false,
+  "offlineStart": "21:00",
+  "offlineEnd": "08:00",
+  "replyInGroups": true,
+  "replyCooldownMinutes": 5,
+  "maxRepliesPerContact": 10,
+  "autoreact": true,
+  "reactEmoji": "🤖",
+  "prefix": "§",
+  "ownerLog": {
+    "enabled": true,
+    "mode": "nightly",
+    "deliveryTime": "07:00",
+    "attachFileIfEntriesOver": 50
+  }
+}
